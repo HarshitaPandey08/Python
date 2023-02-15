@@ -1,0 +1,22 @@
+#When custom input is given and the output gives the count of the desired word,sentence or letter
+
+
+s=input("enter the string: ")
+w=input("enetr the word or letter: ")
+print(s.count(w))
+
+************************************************************************************************************8
+
+
+
+#The output gives the count of each word in a sentence in form of dictionary key value pairs
+
+s='Return the number of times the value "apple" appears in the string'
+s=s.replace('"','').lower().split()
+w={}
+for i in s:
+    if i in w.keys():
+        w[i]+=1
+    else:
+        w[i]=1
+print(w)
