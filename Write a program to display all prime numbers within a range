@@ -1,0 +1,32 @@
+def prime(x,y):
+
+    for i in range(x,y,1):
+        c=0
+        for j in range(2,i//2,1):
+            if i%j==0:
+                c+=1
+                break
+        if c==0:
+            print(i)
+    
+
+x=int(input("Enter the start range : "))
+y=int(input("Enter the end range : "))
+
+print("Prime numbers between",x," and ", y," are: ")
+prime(x,y)
+
+i/p
+
+x = 25
+y = 50
+
+o/p
+
+Prime numbers between 25 and 50 are:
+29
+31
+37
+41
+43
+47
