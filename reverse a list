@@ -1,0 +1,19 @@
+list1 = [10, 20, 30, 40, 50]
+
+list2=[]
+for i in range(len(list1)):
+    list2.append(list1[len(list1)-i-1])
+print(list2)
+
+
+***********alternate solution**********
+list1 = [10, 20, 30, 40, 50]
+
+
+list1.reverse()
+print(list1)
+
+
+----using slicing operator-----
+reversed_list = my_list1[::-1]
+print(reversed_list)
