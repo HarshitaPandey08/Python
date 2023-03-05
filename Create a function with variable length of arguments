@@ -1,0 +1,5 @@
+def num(*args):
+    for i in args:
+        print(i)
+num(20,30,40,50)
+num(10,60)
