@@ -1,0 +1,10 @@
+l=[]
+for i in range(4,30,2):
+    l.append(i)
+print(l)
+
+
+
+******more better solution*****
+
+print(list(range(4, 30, 2)))
