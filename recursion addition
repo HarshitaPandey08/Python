@@ -1,0 +1,7 @@
+def add(n):
+    
+    if n:
+        return n+add(n-1)
+    else:
+        return 0
+print(add(10))
