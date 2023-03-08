@@ -1,0 +1,21 @@
+s=input("Enter the String: ")
+t=input("Enter the String: ")
+
+l=s[0]+t[0]
+l=l+s[len(s)//2]+t[len(t)//2]
+
+l=l+s[len(s)-1]+t[len(t)-1]
+print(l)
+
+
+
+i/p
+
+s1 = "America"
+s2 = "Japan"
+
+
+o/p
+AJrpan
+
+
