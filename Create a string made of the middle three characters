@@ -1,0 +1,16 @@
+s=input("Enter the String: ")
+for i in range(0,len(s),1):
+    if i==len(s)//2-1 or i==len(s)//2+1 or i==len(s)//2:
+        print(s[i],end="")
+        
+        
+        
+ i/p:JhonDipPeta
+ o/p:Dip
+ 
+ 
+ ****Alternate****
+ s=input("Enter the String: ")
+print(s[len(s)//2-1:len(s)//2+2])
+
+Slicing operator
