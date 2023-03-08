@@ -1,0 +1,9 @@
+s=input("Enter the String: ")
+for i in range(0,len(s),1):
+    if i==0 or i==len(s)-1 or i==len(s)//2:
+        print(s[i])
+        
+        
+        
+i/p:  "James"
+o/p: Jms
