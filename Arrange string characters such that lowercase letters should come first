@@ -1,0 +1,31 @@
+s=input("Enter the String: ")
+t=''
+u=''
+for i in range(0,len(s),1):
+    if s[i].islower():
+        t=t+s[i]
+    else:
+        u=u+s[i]
+        
+print(t+u)
+
+i/p:PyNaTive
+o/p:yaivePNT
+
+
+******************************
+str1 = "PYnAtivE"
+print('Original String:', str1)
+lower = []
+upper = []
+for char in str1:
+    if char.islower():
+        # add lowercase characters to lower list
+        lower.append(char)
+    else:
+        # add uppercase characters to lower list
+        upper.append(char)
+
+# Join both list
+sorted_str = ''.join(lower + upper)
+print('Result:', sorted_str)
