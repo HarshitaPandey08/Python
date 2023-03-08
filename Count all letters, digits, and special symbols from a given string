@@ -1,0 +1,24 @@
+s=input("Enter the String: ")
+t=0
+c=0
+l=0
+for i in range(0,len(s),1):
+    if s[i].isdigit():
+        t=t+1
+    elif s[i].isalpha():
+        c=c+1
+    else:
+        l=l+1
+print(t,c,l)
+
+
+
+i/p:
+str1 = "P@#yn26at^&i5ve"
+
+o/p:
+Total counts of chars, digits, and symbols 
+
+Chars = 8 
+Digits = 3 
+Symbol = 4
