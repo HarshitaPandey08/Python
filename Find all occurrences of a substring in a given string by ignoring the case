@@ -1,0 +1,12 @@
+str1 = "Welcome to USA. usa awesome, isn't it?"
+o/p=2
+
+
+x=input(" Enter the first String: ")
+y=input(" Enter the Second String: ")
+
+x=x.lower()
+y=y.lower()
+
+t=x.count(y)
+print(t)
