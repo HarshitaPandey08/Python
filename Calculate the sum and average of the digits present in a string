@@ -1,0 +1,16 @@
+str1 = "PYnative29@#8496"
+Expected Outcome:
+
+Sum is: 38 Average is  6.333333333333333
+
+
+
+x=input(" Enter the first String: ")
+c=0
+s=0
+for i in range(0,len(x),1):
+    if x[i].isdigit():
+        s=s+int(x[i])
+        c=c+1
+print("Sum : ",s)
+print("avaerage",s/c)
