@@ -1,0 +1,31 @@
+s1 = "Yn"
+s2 = "PYnative"
+Expected Output:
+
+True
+
+
+
+x=input(" Enter the first String: ")
+y=input(" Enter the Second String: ")
+
+if y in x:
+    print("True")
+else:
+    print("False")
+    
+    
+    *************Alternate Solution****************
+
+    
+    
+    x=input(" Enter the first String: ")
+y=input(" Enter the Second String: ")
+v=x.find(y)
+if v>=0:
+    print("Yes")
+else:
+    print("False")
+    
+    
+    
