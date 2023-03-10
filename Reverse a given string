@@ -1,0 +1,11 @@
+s=input("Enter the String: ")
+s=''.join(reversed(s))
+print(s)
+
+
+
+-----alternate solution--------
+s=input("Enter the String: ")
+s=s[: : -1]
+print(s)
+
