@@ -1,0 +1,9 @@
+s=input("Enter the String: ")
+t=input("Enter the String: ")
+position=s.rfind(t)
+print(position)
+
+
+---
+rfind() always gives last occurance of the given string
+str.rfind(sub[, start[, end]])
