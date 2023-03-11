@@ -1,0 +1,30 @@
+i/p:str1 = '/*Jon is @developer & musician!!'
+o/p:##Jon is #developer # musician##
+
+
+
+
+
+import string
+s=input("Enter the String: ")
+rep='#'
+for i in string.punctuation:
+    s=s.replace(i,rep)
+print(s)
+
+
+
+
+import re
+string1=input("Enter the String: ")
+new_string= re.sub(r'[^\w\s]','#',string1)
+print(new_string)
+
+
+import string
+string1=input("Enter the String: ")
+table=str.maketrans(string.punctuation,'#'* len(string.punctuation))
+new_string= string1.translate(table)
+print(new_string)
+
+
