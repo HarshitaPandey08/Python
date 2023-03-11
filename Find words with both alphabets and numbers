@@ -1,0 +1,12 @@
+i/p:str1 = "Emma25 is Data scientist50 and AI Expert"
+o/p:Emma25
+scientist50
+
+
+
+s = input("Enter a string: ")
+words = s.split()
+
+for word in words:
+    if any(c.isalpha() for c in word) and any(c.isdigit() for c in word):
+        print(word)
