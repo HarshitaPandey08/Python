@@ -1,0 +1,19 @@
+i/p:/*Jon is @developer & musician
+o/p:Jon is developer musician
+
+
+
+
+import string
+string1=input("Enter the String: ")
+trans=str.maketrans("","",string.punctuation)
+new_string= string1.translate(trans)
+print(new_string)
+
+
+
+import re
+string1=input("Enter the String: ")
+
+new_string= re.sub(r'[^\w\s]', '', string1)
+print(new_string)
