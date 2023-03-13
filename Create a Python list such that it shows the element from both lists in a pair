@@ -1,0 +1,15 @@
+Given:
+
+first_list = [2, 3, 4, 5, 6, 7, 8]
+second_list = [4, 9, 16, 25, 36, 49, 64]
+Expected Output:
+
+Result is  [(6, 36), (8, 64), (4, 16), (5, 25), (3, 9), (7, 49), (2, 4)]
+
+
+
+
+first_list = [2, 3, 4, 5, 6, 7, 8]
+second_list = [4, 9, 16, 25, 36, 49, 64]
+zipp=list(zip(first_list,second_list))
+print(zipp)
