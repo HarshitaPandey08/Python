@@ -1,0 +1,23 @@
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+Expected output:
+
+{'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+
+
+
+************Method 1***************
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+d=zip(keys,values)
+print(dict(d))
+
+
+
+************Method 2***************
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+d={}
+for i in range(0,len(keys),1):
+    d.update({keys[i]:values[i]})
+print(d)
